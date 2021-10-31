@@ -90,7 +90,11 @@ blockquote{
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     text-align: justify;
 }
-
+@media only screen and (max-width:700px){
+    blockquote{
+        text-align: left;
+    }
+}
 a:link, a:visited, a:hover, a:active  {
   color: blue;
 }
