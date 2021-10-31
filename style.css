@@ -1,0 +1,64 @@
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Poppins', sans-serif; */
+
+body{
+    font-family: 'Playfair Display', serif;
+}
+.content-wrapper{
+    margin: 0 auto;
+    width: 65%
+}
+h1{
+    font-family: 'Poppins', Ariel, Helvetica, sans-serif;
+}
+
+h4, h5{
+    font-family: 'Poppins', Ariel, Helvetica, sans-serif;
+    font-style: italic;
+}
+.topper-image{
+    width:100%;
+    max-width: 1100px;
+    margin: auto;
+}
+.fleximage{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+}
+.fleximage img{
+    flex-grow: 1;
+    width: 100%;
+}
+@media only screen and (max-width:700px){
+    .fleximage{
+        flex-direction: column;
+    }
+}
+/* .image-wrapper .caption, .fleximage .caption{
+    margin-top: 0;
+    color: grey;
+    font-family: 'Montserrat', Ariel, Helvetica, sans-serif;
+}
+*/
+blockquote{
+    border-left: 10px solid lightpink;
+    padding-left: 8px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: lightblue;
+    padding: 10px;
+    font-family: 'Poppins', Ariel, Helvetica, sans-serif;
+}
+blockquote::first-letter{
+
+}
+
+.quote{
+    font-size: 30px;
+    content: 
+}
