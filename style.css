@@ -2,19 +2,37 @@
 /* font-family: 'Poppins', sans-serif; */
 
 body{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 .content-wrapper{
     margin: 0 auto;
     width: 65%
 }
 h1{
-    font-family: 'Poppins', Ariel, Helvetica, sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
 }
-
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    color: #831200;
+}
 h4, h5{
     font-family: 'Poppins', Ariel, Helvetica, sans-serif;
+}
+#information h4{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+    color: #831200;
+}
+#information h5{
+    color: #808080;
     font-style: italic;
+    font-size: 16px;
+    margin-top: 0;
+    font-weight: lighter;
 }
 .topper-image{
     width:100%;
@@ -38,7 +56,7 @@ h4, h5{
     gap: 10px;
 }
 .fleximage img{
-    flex-grow: 1;
+    flex-grow: 0;
     /* width: 100%; */
     height: 300px;
 }
@@ -50,34 +68,35 @@ h4, h5{
 .right-image img{
     width: 200px;
 }
-@media only screen and (max-width:915px){
+@media only screen and (max-width:1200px){
     .fleximage{
         flex-direction: column;
     }
+    .fleximage .caption{
+        max-width: 475px;
+    }
 }
-/* .image-wrapper .caption, .fleximage .caption{
-    margin-top: 0;
-    color: grey;
-    font-family: 'Montserrat', Ariel, Helvetica, sans-serif;
-}
-*/
+
 blockquote{
-    border-left: 10px solid color: #dcdcdc;
+    border-left: 10px solid #831200;
+    color: #FFE7B0;
     padding-left: 8px;
-    font-weight: bold;
+    font-style: italic;
     letter-spacing: 1px;
     margin-top: 30px;
     margin-bottom: 30px;
-    background-color: #dcdcdc;
-    padding: 10px;
-    font-family: 'Poppins', Ariel, Helvetica, sans-serif;
+    background-color: #831200;
+    padding: 20px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     text-align: justify;
-}
-
-.quote{
-    font-size: 30px;
 }
 
 a:link, a:visited, a:hover, a:active  {
   color: blue;
+}
+.full-image img{
+    width: 100%;
+}
+.external{
+    font-style: italic;
 }
